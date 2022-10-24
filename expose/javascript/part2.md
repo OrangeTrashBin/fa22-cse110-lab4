@@ -39,3 +39,24 @@ It will return `[50, 100, 150]`. This is array reprenting the final price after 
 - `student.greeting()`
 - `student['Favorite Teacher'].name`
 - `student.coureload[0]`
+
+## Q13
+- `32`, the latter integer has converted to string
+- `1`, the former string has converted to integer
+- `3`, the latter `null` has been ignored
+- `3null`, the latter `null` has been converted to string
+- `4`, the latter `true` has converted to integer `1`
+- `0`, the former `false` has converted to `0` and latter `null` got ignored
+- `3undefined`, the latter `undefined` has converted to string
+- `NaN`, such opperation is not defined
+
+## Q14
+- `true`, `2` has converted to number
+- `false`, based on string comparison `2` is greater than `1`
+- `true`, `2` has converted to number
+- `false`, number `2` and string `'2'` are different
+- `false`, `true` converted to 1
+- `true`, `boolean(2)` is same as `true`.
+
+## Q15
+`==` does the type conversion before compare while `===` compares both value and data types.
