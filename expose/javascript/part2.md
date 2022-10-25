@@ -60,3 +60,20 @@ It will return `[50, 100, 150]`. This is array reprenting the final price after 
 
 ## Q15
 `==` does the type conversion before compare while `===` compares both value and data types.
+
+## Q16
+See the file in the same directory.
+
+## Q17
+The returned value from the `modifyArray` would be the original array but all values get doubled. However, the original array does not get modified.
+
+## Q18
+See the file in the same directory.
+
+## Q19
+```
+1
+4
+3
+2
+```
